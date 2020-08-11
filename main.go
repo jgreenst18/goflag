@@ -10,10 +10,10 @@ import (
 )
 
 // Set sdkKey to your LaunchDarkly SDK key before compiling
-const sdkKey = ""
+const sdkKey = "sdk-a78831d0-0634-4bf1-a9c4-afb4e719a9cb"
 
 // Set featureFlagKey to the feature flag key you want to evaluate
-const featureFlagKey = "my-boolean-flag"
+const featureFlagKey = "new-button"
 
 func main() {
 	if sdkKey == "" {
